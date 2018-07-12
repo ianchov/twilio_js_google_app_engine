@@ -1,6 +1,6 @@
 # twilio_js_google_app_engine
 Serverless sending of custom SMS via Twilio api and google app engine with google sheets and javascript
-This method is totaly serverless. The google app engine will run the script in the cloud. This can be times to run every day, or every month or at a particular event - for example you can sync the table with a custom web form and when someone fills the form with, the script will fire a new SMS for the new entry phone. 
+This method is totaly serverless. The google app engine will run the script in the cloud. This can be timed to run every day, or every month or at a particular event - for example you can sync the table with a custom web form and when someone fills the form with, the script will fire a new SMS for the new entry phone. Also for every number, you can send different sms of same sms content.
 
 In order to send sms via twilo`s api, you need to:
   * create a new google sheet inside your @gmail account (or G SUITE) like the one attached in this git repo..
